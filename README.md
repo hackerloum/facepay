@@ -67,6 +67,10 @@ Add `assets/icon.png` and `assets/splash.png` for production builds (Expo will w
 | Mobile| EXPO_PUBLIC_API_URL          | FastAPI URL                    |
 | Mobile| EXPO_PUBLIC_SUPABASE_*       | Same as web                    |
 
+## Deployment
+
+**Vercel**: Set **Root Directory** to `web` in project settings. See [DEPLOYMENT.md](DEPLOYMENT.md).
+
 ## E2E Flow
 
 1. **Register**: Go to `/register` on web, enter name/phone/network, capture face
