@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "FacePay",
+    "slug": "facepay",
+    "version": "1.0.0",
+    "scheme": "facepay",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0F1E"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.facepay.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "FacePay needs camera access to scan customer faces for payment."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0F1E"
+      },
+      "package": "com.facepay.app",
+      "permissions": ["android.permission.CAMERA"]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow FacePay to access your camera for face scanning."
+        }
+      ]
+    ]
+  }
+}

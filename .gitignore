@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+web/node_modules/
+mobile/node_modules/
+
+# Python
+api/venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Build
+web/.next/
+mobile/.expo/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
