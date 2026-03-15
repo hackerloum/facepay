@@ -1,0 +1,4 @@
+# Exclude API and mobile - Vercel deploys only web/
+# API (DeepFace/TensorFlow) exceeds 500MB Lambda limit
+api/
+mobile/
